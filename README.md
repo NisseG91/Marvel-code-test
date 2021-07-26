@@ -11,8 +11,7 @@ To do this, you will need to do the following:
 const PUBLIC_API_KEY = 'This should be your public API-key';\
 const PRIVATE_API_KEY = 'This should be your private API-key';
 
-Replace the text inside the '-marks with your API-keys. 
-
-Press save and open the "index.html"-file and you're good to go!
+5. Replace the text inside the '-marks with your API-keys. 
+6. Press save and open the "index.html"-file and you're good to go!
 
 Have fun.
