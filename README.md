@@ -8,7 +8,7 @@ To do this, you will need to do the following:
 3. Open Scripts/scripts.js with whatever text-editor you like. 
 4. On the first two rows you will find the following: 
 
-const PUBLIC_API_KEY = 'This should be your public API-key';
+const PUBLIC_API_KEY = 'This should be your public API-key';\
 const PRIVATE_API_KEY = 'This should be your private API-key';
 
 Replace the text inside the '-marks with your API-keys. 
