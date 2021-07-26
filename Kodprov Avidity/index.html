@@ -1,0 +1,42 @@
+﻿<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Avidity code test</title>
+    <meta name="description" content="Series guide for everyone">
+
+
+
+    <link rel="stylesheet" href="CSS/site.css">
+    <!--jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.18.0/js/md5.min.js"></script>
+    <script src="SCripts/scripts.js"></script>
+
+</head>
+
+<body>
+    <main>
+        <label for="id-to-get">input desired story-id to find:</label>
+        <input id="id-to-get" type="number" />
+        <input type="button" id="search-btn" value="Search"/>
+        <div class="d-none" id="result-container">
+            <section id="story-section">
+                <h1 id="story-description">Loading</h1>
+            </section>
+            <section id="character-section">
+                <h2 id="character-header">Characters in the story:</h2>
+            </section>
+        </div>
+
+    </main>
+    <footer class="footer">plutt</footer>
+
+</body>
+
+</html>
